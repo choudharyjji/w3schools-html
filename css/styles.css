@@ -1,0 +1,14 @@
+body {
+    background-color: #282a35;
+}
+header {
+    background-color: white; 
+    height: 75px;
+}
+li {
+    float: left; 
+    font-size: 18px; 
+    font-weight: bold; 
+    height: 75px; 
+    padding: 24px 16px 24px 16px;
+}
