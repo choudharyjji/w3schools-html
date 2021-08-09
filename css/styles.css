@@ -1,5 +1,9 @@
 body {
     background-color: #282a35;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+    text-decoration: none;
 }
 header {
     background-color: white; 
@@ -8,7 +12,43 @@ header {
 li {
     float: left; 
     font-size: 18px; 
-    font-weight: bold; 
+    font-weight: 600; 
     height: 75px; 
+}
+.left-menu {
+    display: inline-block;
+}
+
+.left-menu li a {
+    color: #282a35;
     padding: 24px 16px 24px 16px;
+    display: inline-block;
+    line-height: 27px;
+}
+.left-menu li a:hover {
+    background: #04AA6D;
+    color: white;
+}
+
+.right-menu li {
+    display: inline-block;
+    height: 75px;
+    padding: 16px 0 16px 0;
+    margin-right: 15px;
+}
+.right-menu li a {
+    color: #282a35;
+    height: 43px;
+    padding: 12.5px;
+    display: inline-block;
+    border-radius: 25px;
+}
+.right-menu li a:hover {
+    background: #04AA6D;
+    color: white;
+}
+
+.right-menu li.active a{
+    background: #04AA6D;
+    color: white;
 }
